@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assertix.Code", "Assertix.Code\Assertix.Code.csproj", "{FCAF037B-1998-4DC5-977A-6849177B4CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assertix.Test", "Assertix.Test\Assertix.Test.csproj", "{B53EF326-68E5-48F3-8C6C-CC7181838D8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCAF037B-1998-4DC5-977A-6849177B4CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAF037B-1998-4DC5-977A-6849177B4CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAF037B-1998-4DC5-977A-6849177B4CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAF037B-1998-4DC5-977A-6849177B4CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53EF326-68E5-48F3-8C6C-CC7181838D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53EF326-68E5-48F3-8C6C-CC7181838D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53EF326-68E5-48F3-8C6C-CC7181838D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53EF326-68E5-48F3-8C6C-CC7181838D8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
